@@ -4,7 +4,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {Router, Route, hashHistory} from 'react-router';
 
-import {Main} from './app/components/main';
+import {Main} from './app/components/homepage/main';
 
 import './index.scss';
 

@@ -1,8 +1,10 @@
 import React, {Component} from 'react';
-import {Header} from './header';
-import {Title} from './title';
-import {Techs} from '../techs/techs';
-import {Footer} from './footer';
+import NotifBanner from './NotifBanner.js';
+import MainNav from './MainNav.js';
+import Hero from './Hero.js';
+import About from './About.js';
+import AboutCharacters from './AboutCharacters.js';
+
 
 const styles = {
   container: {
@@ -21,12 +23,11 @@ export class Main extends Component {
   render() {
     return (
       <div style={styles.container}>
-        <Header/>
-        <main style={styles.main}>
-          <Title/>
-          <Techs/>
-        </main>
-        <Footer/>
+        <NotifBanner/>
+        <MainNav/>
+        <Hero/>
+        <About/>
+        <AboutCharacters/>
       </div>
     );
   }
